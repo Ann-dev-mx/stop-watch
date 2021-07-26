@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stop-Watch</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script type="text/javascript" src="javascript/stop_watch.js"></script>
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="timer"><h3>00:00:00</h3></div>
+
+        <div class="buttons">
+        	<button class="button" id="STimer" onclick="startTimer()">START</button>
+            <button class="button" id="startStop" onclick="pauseplay()">PAUSE</button>
+             <button class="button" id="reset" onclick="resetTimer()" >RESET</button>
+             <button class="button" id="stop" onclick="stopTimer()" >STOP</button>
+              <button class="button" id="save" onclick="timeSave()" >SAVE</button>
+              <div id="result"></div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
