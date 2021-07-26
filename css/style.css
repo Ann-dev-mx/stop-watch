@@ -1,22 +1,30 @@
 body{
 	background-color: black;
+  
 }
 .container {
-  font-family: 'monospace';
-  
-  text-align: center;
-  color: white;
+   font-family: 'monospace';
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+ }
+.buttons{
+  align-items: center;
  }
 
 #timer{
     width: 100%;
     font-size: 100px;
     
+}
+#result{
+   font-weight: bold;
+   font-family: 'Brush Script MT'
 }
 
 .button{

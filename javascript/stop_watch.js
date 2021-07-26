@@ -52,6 +52,7 @@ function startTimer(){
               val=window.setInterval(runtimer, 100);
               
                flag = "start";
+
                document.getElementById("startStop").disabled = false;
                 document.getElementById("save").disabled = true;
      }   
@@ -84,6 +85,7 @@ function resetTimer(){
     minutes = 0;
     seconds = 0;
     document.getElementById("timer").innerHTML = "00:00:00";
+    document.getElementById("startStop").innerHTML = "PAUSE";
     document.getElementById("startStop").disabled = true;
     val=null;
     document.getElementById("STimer").disabled = false;
